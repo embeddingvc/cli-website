@@ -27,7 +27,12 @@ const commands = {
     const people = Object.keys(team);
     for (p of people) {
       const person = team[p];
-      term.stylePrint(`${person["name"]} (${p})\t${person["title"]}`);
+      const tabs = c.length > 8 ? "\t" : "\t\t";
+      const sep = term.cols >= 80 ? tabs : "\r\n";
+      term.stylePrint(`${person["name"]} (${p})${sep}${person["title"]}`);
+      if (term.cols < 80 && c != people[people.length - 1]) {
+        term.writeln("");
+      }
     }    
   },
 
@@ -83,7 +88,7 @@ const commands = {
       const tabs = c.length > 8 ? "\t" : "\t\t";
       const sep = term.cols >= 80 ? tabs : "\r\n";
       term.stylePrint(`%whatis% ${c}${sep}${data["url"]}`);
-      if (term.cols < 80 && c != companies[companies.length - 1]) {
+      if (term.cols < 80 && c != filteredCompanies[filteredCompanies.length - 1]) {
         term.writeln("");
       }
     }
