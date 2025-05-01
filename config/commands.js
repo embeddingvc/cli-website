@@ -1,4 +1,4 @@
-const whoisEmbedding = "Embedding VC is a pre-seed/seed stage venture fund in Silicon Valley to back US Generative AI startups, particularly those focused on introducing innovative applications, business models or organization made possible by GenAI, as well as DevTools & Infrastructure stacks that facilitate GenAI development.All our investors are current and former builders and operators. We believe that we are at the onset of a new computing super cycle, fundamentally driven by AI innovations. Moreover, our passion lies in empowering founders to achieve success — it just feels good. Try %whois% and one of roger, tom, noah, jianing, jerry, or nelson to learn more about our team.";
+const whoisEmbedding = "Embedding VC is a pre-seed/seed stage venture fund in Silicon Valley to back US Generative AI startups, particularly those focused on introducing innovative applications, business models or organization made possible by GenAI, as well as DevTools & Infrastructure stacks that facilitate GenAI development. All our investors are current and former builders and operators. We believe that we are at the onset of a new computing super cycle, fundamentally driven by AI innovations. Moreover, our passion lies in empowering founders to achieve success — it just feels good. Try %whois% and one of roger, tom, noah, jianing, jerry, or nelson to learn more about our team.";
 const timeUnit = 1000; // useful for development, set to 10 to run faster, set to 1000 for production
 let killed = false;
 
@@ -23,14 +23,14 @@ const commands = {
   },
 
   team: function() {
-    term.stylePrint("Learn more about a team member - usage: %whois% name\r\n");
     const people = Object.keys(team);
+    term.stylePrint("Learn more about a team member - usage: %whois% name\r\n");
     for (p of people) {
       const person = team[p];
-      const tabs = c.length > 8 ? "\t" : "\t\t";
+      const tabs = p.length > 8 ? "\t" : "\t\t";
       const sep = term.cols >= 80 ? tabs : "\r\n";
       term.stylePrint(`${person["name"]} (${p})${sep}${person["title"]}`);
-      if (term.cols < 80 && c != people[people.length - 1]) {
+      if (term.cols < 80 && p != people[people.length - 1]) {
         term.writeln("");
       }
     }    

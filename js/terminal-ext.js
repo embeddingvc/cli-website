@@ -174,7 +174,7 @@ extend = (term) => {
     term.reset();
     term.printLogoType();
     term.stylePrint(
-      "Welcome to the Embedding VC terminal. We’re an early-stage investor focused on Generative AI startups.",
+      "Welcome to the Embedding VC terminal. We are an early-stage investor focused on Generative AI startups.",
     );
     term.stylePrint(
       `\r\nType ${colorText("help", "command")} to get started. Or type ${colorText("exit", "command")} for web version.`,
