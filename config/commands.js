@@ -148,7 +148,7 @@ const commands = {
   // },
 
   // test: function() {
-  //   term.openURL("https://i.imgur.com/Q2Unw.gif");
+  //   term.openURL("https://www.reddit.com/r/ChatGPT/comments/1i3qnuy/match_made_in_heaven/#lightbox");
   // },
 
   email: function() {
@@ -298,7 +298,7 @@ const commands = {
       term.stylePrint(`No such file: ${filename}`);
     }
     if (filename == "id_rsa") {
-      term.openURL("https://i.imgur.com/Q2Unw.gif");
+      term.openURL("https://www.reddit.com/r/ChatGPT/comments/1i3qnuy/match_made_in_heaven/#lightbox");
     }
   },
 
@@ -307,7 +307,7 @@ const commands = {
     const filename = args[1];
 
     if (filename == "id_rsa") {
-      term.openURL("https://i.imgur.com/Q2Unw.gif");
+      term.openURL("https://www.reddit.com/r/ChatGPT/comments/1i3qnuy/match_made_in_heaven/#lightbox");
     }
 
     if (!q || !filename) {
@@ -413,7 +413,7 @@ const commands = {
       term.stylePrint("%open%: open a file - usage:\r\n");
       term.stylePrint("%open% test.htm");
     } else if (args[0].split(".")[0] == "test" && args[0].split(".")[1] == "htm") {
-      term.openURL("https://i.imgur.com/Q2Unw.gif");
+      term.openURL("https://www.reddit.com/r/ChatGPT/comments/1i3qnuy/match_made_in_heaven/#lightbox");
     } else if (args[0].split(".")[1] == "htm") {
       term.openURL(`./${args[0]}`, false);
     } else if (args.join(" ") == "the pod bay doors") {
