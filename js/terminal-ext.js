@@ -189,10 +189,11 @@ extend = (term) => {
       "Welcome to the Embedding VC terminal. We are an early-stage venture firm focused on Generative AI startups.",
     );
     term.stylePrint(
-      `\r\nType ${colorText("help", "command")} to get started. Or type ${colorText("exit", "command")} for web version.`,
+      `\r\nType ${colorText("help", "command")} to get started, or type ${colorText("exit", "command")} to switch to the web version.`,
       false,
     );
 
+    // Add when have new job opening
     // term.stylePrint(
     //   `\r\nOpen jobs detected. Type ${colorText("jobs", "command")} for more info.`,
     //   false,
