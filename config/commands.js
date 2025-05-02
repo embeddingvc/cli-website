@@ -625,8 +625,8 @@ const commands = {
   },
 
   exit: function() {
-    // term.command("open welcome.htm");
-    term.openURL("https://www.embedding.vc", false);  // false means it will replace the current page
+    // term.openURL("https://www.embedding.vc", false);  // false means it will replace the current page
+    commands.supersite();
   },
 
   clear: function() {
@@ -706,3 +706,55 @@ for (kv of Object.entries(portfolio)) {
 function _filesHere() {
   return _DIRS[term.cwd].filter((e) => e != 'README.md' || term.user == "root");
 }
+
+// Add a new command to open the supersite
+commands.supersite = function() {
+  // First clear the current terminal display
+  term.clear();
+  
+  // Create a full-page iframe to embed the external site
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://embedding.super.site/';
+  iframe.style.position = 'fixed';
+  iframe.style.top = '0';
+  iframe.style.left = '0';
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.border = 'none';
+  iframe.style.zIndex = '9999';
+  
+  // Add a way to return to the terminal (positioned at top center)
+  const returnButton = document.createElement('button');
+  returnButton.innerText = 'Return to Terminal';
+  returnButton.style.position = 'fixed';
+  returnButton.style.top = '10px';
+  returnButton.style.left = '50%';
+  returnButton.style.transform = 'translateX(-50%)'; // Center horizontally
+  returnButton.style.zIndex = '10000';
+  returnButton.style.padding = '8px 15px';
+  returnButton.style.background = '#333';
+  returnButton.style.color = '#fff';
+  returnButton.style.border = 'none';
+  returnButton.style.borderRadius = '3px';
+  returnButton.style.cursor = 'pointer';
+  returnButton.style.fontFamily = 'Arial, sans-serif';
+  returnButton.style.fontSize = '14px';
+  returnButton.style.boxShadow = '0 2px 5px rgba(0,0,0,0.3)';
+  
+  returnButton.onclick = function() {
+    document.body.removeChild(iframe);
+    document.body.removeChild(returnButton);
+    
+    // Initialize the terminal
+    term.init(term.user);
+    
+    // Explicitly show the prompt
+    term.prompt();
+    
+    // Make sure the terminal has focus
+    term.focus();
+  };
+  
+  document.body.appendChild(iframe);
+  document.body.appendChild(returnButton);
+};

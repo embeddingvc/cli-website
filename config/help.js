@@ -10,5 +10,6 @@ const help = {
   "%newsletter%": "beehiiv newsletter",
   "%email%": "reach out to us",
   "%locate%": "physical address",
+  "%exit%": "exit the terminal for web version of the site",
   "%other%": "try your fav commands (e.g. %ls%, %ping%)",
 };

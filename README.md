@@ -15,6 +15,7 @@ Who needs a website when you have a terminal.
   - substack: read our Substack newsletter
   - newsletter: subscribe to our Beehiiv newsletter
   - locate: find our physical address
+  - exit: exit the terminal for web version of the site
   - other: try your favorite linux commands
 
 ## Advanced Commands
