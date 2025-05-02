@@ -10,35 +10,35 @@ const team = {
     name: "Noah Wang",
     title: "Investor",
     description:
-      "",
+      "Noah Wang is an investor at Embedding VC. He previously co-founded TOP AI Network, a Silicon Valley-based technology company that developed a business-friendly public blockchain and the world’s first blockchain-based cloud communication network. Before founding TOP AI Network, Noah held management positions at Starr Companies, ICBC, and PwC. He earned his MBA from Yale and is a CFA charterholder, a licensed CPA, and a member of Mensa International.",
     linkedin: "https://www.linkedin.com/in/yang-w-949ab842/",
+  },
+  jianing: {
+    name: "Jianing Wu",
+    title: "Investor",
+    description:
+      "Jianing Wu is an investor at Embedding VC. Previously, she interned at Micron Ventures, Monad Ventures and Alibaba's Strategic Investment Group. She holds a Master of Science in Management Science and Engineering from Stanford and a Bachelor of Science in Financial Mathematics from the USC.",
+    linkedin: "https://www.linkedin.com/in/wu-jianing/",
   },
   tom: {
     name: "Thomas Matthias",
     title: "Investor & Venture Fellow",
     description:
-      "",
+      "Thomas Matthias is an investor and venture fellow at Embedding VC. He brings experience in product and engineering, and spent the past decade as TPM at Meta and Amazon. Thomas holds an MBA from Santa Clara University and a master’s degree in Music Business from Berklee College of Music.",
     linkedin: "https://www.linkedin.com/in/thomasmatthias/",
-  },
-  jianing: {
-    name: "Jianing Wu",
-    title: "Investor & Venture Fellow",
-    description:
-      "",
-    linkedin: "https://www.linkedin.com/in/wu-jianing/",
   },
   jerry: {
     name: "Jerry Li",
     title: "Venture Partner",
     description:
-      "",
+      "Jerry Li is the Co-founder and CEO of Gradual, a next-generation community platform designed to unify events, content, and conversations for purpose-led communities. Besides Gradual, he founded the Engineering Leadership Community (ELC), a global network of over 10,000 engineering leaders, where he continues to foster leadership development and knowledge sharing. Jerry’s earlier career includes engineering leadership roles at Amazon and Groupon, where he led teams in building scalable payment infrastructures. He holds a Master’s degree in Computer Science from UIUC. ",
     linkedin: "https://www.linkedin.com/in/jerry-li-1bb1177/",
   },
   nelson: {
     name: "Nelson Bostrom",
     title: "Venture Partner",
     description:
-      "",
+      "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
   },
 };
