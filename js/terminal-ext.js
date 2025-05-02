@@ -117,13 +117,13 @@ extend = (term) => {
   };
 
   term.printArt = (id) => {
-    if (term.cols >= 40) {
+    if (term.cols >= 55) {
       term.writeln(`\r\n${getArt(id)}\r\n`);
     }
   };
 
   term.printLogoType = () => {
-    term.writeln(term.cols >= 40 ? LOGO_TYPE : "[Embedding VC]\r\n");
+    term.writeln(term.cols >= 55 ? LOGO_TYPE : "[Embedding VC]\r\n");
   };
 
   term.openURL = (url, newWindow = true) => {
@@ -174,12 +174,13 @@ extend = (term) => {
     term.reset();
     term.printLogoType();
     term.stylePrint(
-      "Welcome to the Embedding VC terminal. We are an early-stage investor focused on Generative AI startups.",
+      "Welcome to the Embedding VC terminal. We are an early-stage venture firm focused on Generative AI startups.",
     );
     term.stylePrint(
       `\r\nType ${colorText("help", "command")} to get started. Or type ${colorText("exit", "command")} for web version.`,
       false,
     );
+
     // term.stylePrint(
     //   `\r\nOpen jobs detected. Type ${colorText("jobs", "command")} for more info.`,
     //   false,
