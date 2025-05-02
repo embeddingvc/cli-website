@@ -10,18 +10,30 @@ extend = (term) => {
   term.history = [];
   term.historyCursor = -1;
   term.pos = () => term._core.buffer.x - term._promptRawText().length - 1;
-  term._promptRawText = () =>
-    `${term.user}${term.sep}${term.host} ${term.cwd} $`;
+  term._promptRawText = () => {
+    // Use shorter prompt on small screens
+    if (term.cols < 55) {
+      return `$ `;
+    }
+    return `${term.user}${term.sep}${term.host} ${term.cwd} $`;
+  };
   term.deepLink = window.location.hash.replace("#", "").split("-").join(" ");
 
   term.promptText = () => {
-    var text = term
-      ._promptRawText()
-      .replace(term.user, colorText(term.user, "user"))
-      .replace(term.sep, colorText(term.sep, ""))
-      .replace(term.host, colorText(term.host, ""))
-      .replace(term.cwd, colorText(term.cwd, "hyperlink"))
-      .replace(term._promptChar, colorText(term._promptChar, "prompt"));
+    var text = term._promptRawText();
+    
+    // Only apply colors if we're using the full prompt
+    if (term.cols >= 55) {
+      text = text
+        .replace(term.user, colorText(term.user, "user"))
+        .replace(term.sep, colorText(term.sep, ""))
+        .replace(term.host, colorText(term.host, ""))
+        .replace(term.cwd, colorText(term.cwd, "hyperlink"))
+        .replace(term._promptChar, colorText(term._promptChar, "prompt"));
+    } else {
+      // Just color the $ for small screens
+      text = text.replace("$", colorText("$", "prompt"));
+    }
     return text;
   };
 
