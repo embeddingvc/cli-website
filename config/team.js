@@ -24,7 +24,7 @@ const team = {
     name: "Thomas Matthias",
     title: "Investor & Venture Fellow",
     description:
-      "Thomas Matthias is an investor and venture fellow at Embedding VC. He brings experience in product and engineering, and spent the past decade as TPM at Meta and Amazon. Thomas holds an MBA from Santa Clara University and a master’s degree in Music Business from Berklee College of Music.",
+      "Tom Matthias is an investor at Embedding VC. His background includes technical product management roles at Meta Reality Labs, Amazon Alexa, Saildrone, and Dolby Labs, with a focus on AR/VR systems, robotics, voice assistants, and audio software. Tom holds an MBA from Santa Clara University, a Master's in Music Business from Berklee, and a B.S. in Audio Software Engineering from Cogswell Polytechnical College.",
     linkedin: "https://www.linkedin.com/in/thomasmatthias/",
   },
   jerry: {
