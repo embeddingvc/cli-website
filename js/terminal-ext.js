@@ -135,7 +135,13 @@ extend = (term) => {
   };
 
   term.printLogoType = () => {
-    term.writeln(term.cols >= 55 ? LOGO_TYPE : "[Embedding VC]\r\n");
+    if (term.cols >= 75) {
+      term.writeln(LOGO_TYPE);
+    } else if (term.cols >= 30) {
+      term.writeln(NARROW_LOGO_TYPE);
+    } else {
+      term.writeln("[Embedding VC]\r\n");
+    }
   };
 
   term.openURL = (url, newWindow = true) => {

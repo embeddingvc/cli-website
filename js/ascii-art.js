@@ -18,6 +18,15 @@ const LOGO_TYPE =
 
 `.replaceAll("\n", "\r\n");
 
+// https://patorjk.com/software/taag/#p=display&f=miniwi&t=Embedding%20VC%0A
+const NARROW_LOGO_TYPE =
+`
+▄▖   ▌    ▌ ▌▘      ▖▖▄▖
+▙▖▛▛▌▛▌█▌▛▌▛▌▌▛▌▛▌  ▌▌▌ 
+▙▖▌▌▌▙▌▙▖▙▌▙▌▌▌▌▙▌  ▚▘▙▖
+                ▄▌
+`.replaceAll("\n", "\r\n");
+
 function preloadASCIIArt() {
   const companies = Object.keys(portfolio);
   for (c of companies) {
