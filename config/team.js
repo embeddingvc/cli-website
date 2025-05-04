@@ -3,7 +3,7 @@ const team = {
     name: "Roger Luo",
     title: "Founder & Managing Partner",
     description:
-      "Roger is the Founding Partner of Embedding VC. Previously, Roger is a seasoned entrepreneur, having co-founded two AI SaaS startups. Beyond his startup experience, Roger held roles leading machine learning teams at influential technology companies like Niantic, Snap, and Yahoo! Labs. He earned his PhD on AI in 2011 from Swiss Federal Institute of Technology.",
+      "Roger Luo is the Founding Partner of Embedding VC. A seasoned entrepreneur, he previously co-founded two AI SaaS startups, one of which exited. Beyond his startup experience, Roger led machine learning teams at leading technology companies including Niantic, Snap, and Yahoo Labs. He earned his PhD in AI in 2011 from the Swiss Federal Institute of Technology. Roger has published over 40 AI/ML papers in top conferences and journals, and holds six U.S. patents in AI. Since 2017, he has invested in more than 30 startups as an angel investor, syndicate lead, and venture partner, including three unicorns and seven exits, prior to founding Embedding VC.",
     linkedin: "https://www.linkedin.com/in/luojie/",
   },
   noah: {
