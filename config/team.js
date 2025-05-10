@@ -6,13 +6,6 @@ const team = {
       "Roger Luo is the Founding Partner of Embedding VC. A seasoned entrepreneur, he previously co-founded two AI SaaS startups, one of which exited. Beyond his startup experience, Roger led machine learning teams at leading technology companies including Niantic, Snap, and Yahoo Labs. He earned his PhD in AI in 2011 from the Swiss Federal Institute of Technology. Roger has published over 40 AI/ML papers in top conferences and journals, and holds six U.S. patents in AI. Since 2017, he has invested in more than 30 startups as an angel investor, syndicate lead, and venture partner, including three unicorns and seven exits, prior to founding Embedding VC.",
     linkedin: "https://www.linkedin.com/in/luojie/",
   },
-  noah: {
-    name: "Noah Wang",
-    title: "Investor",
-    description:
-      "Noah Wang is an investor at Embedding VC. He previously co-founded TOP AI Network, a Silicon Valley-based technology company that developed a business-friendly public blockchain and the world’s first blockchain-based cloud communication network. Before founding TOP AI Network, Noah held management positions at Starr Companies, ICBC, and PwC. He earned his MBA from Yale and is a CFA charterholder, a licensed CPA, and a member of Mensa International.",
-    linkedin: "https://www.linkedin.com/in/yang-w-949ab842/",
-  },
   jianing: {
     name: "Jianing Wu",
     title: "Investor",
@@ -40,5 +33,12 @@ const team = {
     description:
       "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
+  },
+  noah: {
+    name: "Noah Wang",
+    title: "Venture Partner",
+    description:
+      "Noah Wang is a venture parnter at Embedding VC. He previously co-founded TOP AI Network, a Silicon Valley-based technology company that developed a business-friendly public blockchain and the world’s first blockchain-based cloud communication network. Before founding TOP AI Network, Noah held management positions at Starr Companies, ICBC, and PwC. He earned his MBA from Yale and is a CFA charterholder, a licensed CPA, and a member of Mensa International.",
+    linkedin: "https://www.linkedin.com/in/noah-wang-69437116a/",
   },
 };
