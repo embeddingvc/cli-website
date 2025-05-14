@@ -135,12 +135,15 @@ extend = (term) => {
   };
 
   term.printLogoType = () => {
+    const logoColor = "\x1b[38;2;181;168;213m"; // RGB color for #4D55CC
+    const resetColor = "\x1b[0m";             // Reset to default color
+
     if (term.cols >= 75) {
-      term.writeln(LOGO_TYPE);
+      term.writeln(logoColor + LOGO_TYPE + resetColor);
     } else if (term.cols >= 30) {
-      term.writeln(NARROW_LOGO_TYPE);
+      term.writeln(logoColor + NARROW_LOGO_TYPE + resetColor);
     } else {
-      term.writeln("[Embedding VC]\r\n");
+      term.writeln(logoColor + "[Embedding VC]\r\n" + resetColor);
     }
   };
 
