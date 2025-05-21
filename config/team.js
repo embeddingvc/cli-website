@@ -15,7 +15,7 @@ const team = {
   },
   tom: {
     name: "Thomas Matthias",
-    title: "Investor & Venture Fellow",
+    title: "Investor",
     description:
       "Tom Matthias is an investor at Embedding VC. His background includes technical product management roles at Meta Reality Labs, Amazon Alexa, Saildrone, and Dolby Labs, with a focus on AR/VR systems, robotics, voice assistants, and audio software. Tom holds an MBA from Santa Clara University, a Master's in Music Business from Berklee, and a B.S. in Audio Software Engineering from Cogswell Polytechnical College.",
     linkedin: "https://www.linkedin.com/in/thomasmatthias/",
@@ -34,11 +34,11 @@ const team = {
       "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
   },
-  noah: {
-    name: "Noah Wang",
-    title: "Venture Partner",
+  orkun: {
+    name: "Orkun Özbatur",
+    title: "Venture Fellow",
     description:
-      "Noah Wang is a venture parnter at Embedding VC. He previously co-founded TOP AI Network, a Silicon Valley-based technology company that developed a business-friendly public blockchain and the world’s first blockchain-based cloud communication network. Before founding TOP AI Network, Noah held management positions at Starr Companies, ICBC, and PwC. He earned his MBA from Yale and is a CFA charterholder, a licensed CPA, and a member of Mensa International.",
-    linkedin: "https://www.linkedin.com/in/noah-wang-69437116a/",
+      "Orkun Özbatur is a Venture Fellow at Embedding VC. He is currently a Principal Product Manager at Amazon and also serves as the Director of the Benelux region at Founder Institute.",
+    linkedin: "https://www.linkedin.com/in/orkunozbatur/",
   },
 };
