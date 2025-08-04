@@ -41,4 +41,11 @@ const team = {
       "Orkun Özbatur is a Venture Fellow at Embedding VC. He is currently a Principal Product Manager at Amazon and also serves as the Director of the Benelux region at Founder Institute.",
     linkedin: "https://www.linkedin.com/in/orkunozbatur/",
   },
+  raihan: {
+    name: "Raihan Ahmed",
+    title: "Venture Fellow",
+    description:
+      "Raihan Ahmed is a Venture Fellow at Embedding VC. He is currently an undergraduate student studying CS and Design at Stanford.",
+    linkedin: "https://www.linkedin.com/in/a-raihan/",
+  },
 };
