@@ -43,9 +43,51 @@ const team = {
   },
   raihan: {
     name: "Raihan Ahmed",
-    title: "Venture Fellow",
+    title: "Scout Captain",
     description:
-      "Raihan Ahmed is a Venture Fellow at Embedding VC. He is currently an undergraduate student studying CS and Design at Stanford.",
+      "Raihan Ahmed is a CS and Design student at Stanford with interests in HealthTech and LegalTech startups. Raihan leads one of the largest student-founder networks in the country, and his previous experience includes helping early-stage student-founders receive mentorship from industry professionals and policy work for the City of Boston.",
     linkedin: "https://www.linkedin.com/in/a-raihan/",
+  },
+  amelia: {
+    name: "Amelia Khor",
+    title: "Scout, UC Berkeley",
+    description:
+      "Amelia studies economics at UC Berkeley and is involved in Berkeley Venture Capital, a VC club, as well as Free Ventures, a zero equity startup accelerator. Her professional interests lie in early and growth stage investing, leading to her working on a club partnership with Notable Capital and working with different venture backed startups in the AI space.",
+    linkedin: "https://www.linkedin.com/in/ameliakhor/",
+  },
+  laurie: {
+    name: "Laurie Wang",
+    title: "Scout, MIT",
+    description:
+      "Laurie is a MIT student passionate about applying AI, math, and probability to real issues. Interested in applications of AI to growing and impactful fields like medicine, biotechnology, and more.",
+    linkedin: "https://www.linkedin.com/in/laurie-wang-8b5772276/",
+  },
+  sandeep: {
+    name: "Sandeep Sethuraman",
+    title: "Scout, Stanford",
+    description:
+      "Sandeep is a Scout at Embedding VC. He is currently an undergraduate student at Stanford.",
+    linkedin: "https://www.linkedin.com/in/sandeep-sethuraman/",
+  },
+  siam: {
+    name: "Siam Hossain",
+    title: "Scout, Princeton",
+    description:
+      "Siam Hossain is an Applied Mathematics student at Princeton University with a strong focus on venture capital and startups. He is the founder of a nonprofit organization and is currently developing AI-driven projects to help small businesses, while leading multiple entrepreneurial and campus initiatives.",
+    linkedin: "https://www.linkedin.com/in/siamhossain1/",
+  },
+  yosief: {
+    name: "Yosief Abraham",
+    title: "Scout, Stanford",
+    description:
+      "Yosief Abraham is a Civil Engineering and Computer Science student at Stanford University with experience spanning venture capital, civil infrastructure, and finance. He brings over a year of VC scouting experience, prior work in public agencies, research with Stanford faculty, and time on Morgan Stanley’s Sales & Trading desk. Yosief blends diverse career paths to bring sharp, cross-disciplinary insight into emerging technologies and high-potential startups.",
+    linkedin: "https://www.linkedin.com/in/yosiefabraham/",
+  },
+  zach: {
+    name: "Zach Chen",
+    title: "Scout, Harvard",
+    description:
+      "Zach Chen is a sophomore at Harvard studying Computer Science with interests in AI & Crypto. Zach is involved with the startup scene at Harvard and loves running, playing basketball, reading, and writing his blog on Substack.",
+    linkedin: "https://www.linkedin.com/in/zachary-chen31415/",
   },
 };
