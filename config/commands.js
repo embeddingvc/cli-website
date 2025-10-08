@@ -25,13 +25,21 @@ const commands = {
   team: function() {
     const people = Object.keys(team);
     term.stylePrint("Learn more about a team member - usage: %whois% name\r\n");
+    
     for (p of people) {
       const person = team[p];
-      const tabs = p.length > 16 ? "\t" : "\t\t";
-      const sep = term.cols >= 80 ? tabs : "\r\n";
-      term.stylePrint(`${person["name"]} (${p})${sep}${person["title"]}`);
-      if (term.cols < 80 && p != people[people.length - 1]) {
-        term.writeln("");
+      const nameWithKey = `${person["name"]} (${p})`;
+      
+      if (term.cols >= 80) {
+        // Hard-coded padding to 35 characters for consistent alignment
+        const spaces = " ".repeat(Math.max(35 - nameWithKey.length, 2));
+        term.stylePrint(`${nameWithKey}${spaces}${person["title"]}`);
+      } else {
+        term.stylePrint(nameWithKey);
+        term.stylePrint(person["title"]);
+        if (p != people[people.length - 1]) {
+          term.writeln("");
+        }
       }
     }    
   },
