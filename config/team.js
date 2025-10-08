@@ -43,7 +43,7 @@ const team = {
   },
   raihan: {
     name: "Raihan Ahmed",
-    title: "Scout Captain",
+    title: "Head of Scout",
     description:
       "Raihan Ahmed is a CS and Design student at Stanford with interests in HealthTech and LegalTech startups. Raihan leads one of the largest student-founder networks in the country, and his previous experience includes helping early-stage student-founders receive mentorship from industry professionals and policy work for the City of Boston.",
     linkedin: "https://www.linkedin.com/in/a-raihan/",
