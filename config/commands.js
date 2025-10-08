@@ -27,7 +27,7 @@ const commands = {
     term.stylePrint("Learn more about a team member - usage: %whois% name\r\n");
     for (p of people) {
       const person = team[p];
-      const tabs = p.length > 12 ? "\t" : "\t\t";
+      const tabs = p.length > 8 ? "\t" : "\t\t\t";
       const sep = term.cols >= 80 ? tabs : "\r\n";
       term.stylePrint(`${person["name"]} (${p})${sep}${person["title"]}`);
       if (term.cols < 80 && p != people[people.length - 1]) {
