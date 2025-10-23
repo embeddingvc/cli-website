@@ -20,6 +20,13 @@ const team = {
       "Tom Matthias is an investor at Embedding VC. His background includes technical product management roles at Meta Reality Labs, Amazon Alexa, Saildrone, and Dolby Labs, with a focus on AR/VR systems, robotics, voice assistants, and audio software. Tom holds an MBA from Santa Clara University, a Master's in Music Business from Berklee, and a B.S. in Audio Software Engineering from Cogswell Polytechnical College.",
     linkedin: "https://www.linkedin.com/in/thomasmatthias/",
   },
+  congxing: {
+    name: "Congxing Cai",
+    title: "Partner, CTO",
+    description:
+      "Congxing Cai is a CTO Partner at Embedding VC. Congxing is a seasoned entrepreneur who launched multiple viral AI + Social apps backed by Index Ventures. Prior to that, he served as Head of Discover and Story Engineering at Snapchat, a Principal Engineer at Houzz, and a Tech Lead at Google.",
+    linkedin: "https://www.linkedin.com/in/congxing-cai-8775732b/",
+  },
   jerry: {
     name: "Jerry Li",
     title: "Venture Partner",
