@@ -135,10 +135,12 @@ extend = (term) => {
   };
 
   term.printLogoType = () => {
-    const logoColor = "\x1b[38;2;181;168;213m"; // RGB color for #4D55CC
+    const logoColor = "\x1b[38;2;181;168;213m"; // RGB color for #B5A8D5
     const resetColor = "\x1b[0m";             // Reset to default color
 
-    if (term.cols >= 75) {
+    if (term.cols >= 115) {
+      term.writeln(logoColor + LONG_LOGO_TYPE + resetColor);
+    } else if (term.cols >= 75) {
       term.writeln(logoColor + LOGO_TYPE + resetColor);
     } else if (term.cols >= 30) {
       term.writeln(logoColor + NARROW_LOGO_TYPE + resetColor);
