@@ -6,6 +6,13 @@ const team = {
       "Roger Luo is the Founding Partner of Embedding VC. A seasoned entrepreneur, he previously co-founded two AI SaaS startups, one of which exited, and one unicorn which raised $163M from A16Z, Lightspeed, Spark Capital. Beyond his startup experience, Roger led machine learning teams at leading technology companies including Niantic, Snap, and Yahoo Labs. He earned his PhD in AI in 2011 from the Swiss Federal Institute of Technology. Roger has published over 40 AI/ML papers in top conferences and journals, and holds six U.S. patents in AI. Since 2017, he has invested in more than 30 startups as an angel investor, syndicate lead, and venture partner, including three unicorns and seven exits, prior to founding Embedding VC.",
     linkedin: "https://www.linkedin.com/in/luojie/",
   },
+  congxing: {
+    name: "Congxing Cai",
+    title: "Partner, CTO",
+    description:
+      "Congxing Cai is a CTO Partner at Embedding VC. Congxing is a seasoned entrepreneur who launched multiple viral AI + Social apps backed by Index Ventures. Prior to that, he served as Head of Discover and Story Engineering at Snapchat, a Principal Engineer at Houzz, and a Tech Lead at Google.",
+    linkedin: "https://www.linkedin.com/in/congxing-cai-8775732b/",
+  },
   jianing: {
     name: "Jianing Wu",
     title: "Investor",
@@ -20,12 +27,12 @@ const team = {
       "Tom Matthias is an investor at Embedding VC. His background includes technical product management roles at Meta Reality Labs, Amazon Alexa, Saildrone, and Dolby Labs, with a focus on AR/VR systems, robotics, voice assistants, and audio software. Tom holds an MBA from Santa Clara University, a Master's in Music Business from Berklee, and a B.S. in Audio Software Engineering from Cogswell Polytechnical College.",
     linkedin: "https://www.linkedin.com/in/thomasmatthias/",
   },
-  congxing: {
-    name: "Congxing Cai",
-    title: "Partner, CTO",
+  henry: {
+    name: "Henry Zhang",
+    title: "Talent Associate",
     description:
-      "Congxing Cai is a CTO Partner at Embedding VC. Congxing is a seasoned entrepreneur who launched multiple viral AI + Social apps backed by Index Ventures. Prior to that, he served as Head of Discover and Story Engineering at Snapchat, a Principal Engineer at Houzz, and a Tech Lead at Google.",
-    linkedin: "https://www.linkedin.com/in/congxing-cai-8775732b/",
+      "Henry Zhang is a Talent Associate at Embedding VC. He recently graduated from the University of Chicago, where he majored in Public Policy.",
+    linkedin: "https://www.linkedin.com/in/zhengyan-zhang-598088284/",
   },
   jerry: {
     name: "Jerry Li",
@@ -40,13 +47,6 @@ const team = {
     description:
       "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
-  },
-  orkun: {
-    name: "Orkun Özbatur",
-    title: "Venture Fellow",
-    description:
-      "Orkun Özbatur is a Venture Fellow at Embedding VC. He is currently a Principal Product Manager at Amazon and also serves as the Director of the Benelux region at Founder Institute.",
-    linkedin: "https://www.linkedin.com/in/orkunozbatur/",
   },
   raihan: {
     name: "Raihan Ahmed",
@@ -68,13 +68,6 @@ const team = {
     description:
       "Laurie is a MIT student passionate about applying AI, math, and probability to real issues. Interested in applications of AI to growing and impactful fields like medicine, biotechnology, and more.",
     linkedin: "https://www.linkedin.com/in/laurie-wang-8b5772276/",
-  },
-  sandeep: {
-    name: "Sandeep Sethuraman",
-    title: "Scout, Stanford",
-    description:
-      "Sandeep is a Scout at Embedding VC. He is currently an undergraduate student at Stanford.",
-    linkedin: "https://www.linkedin.com/in/sandeep-sethuraman/",
   },
   siam: {
     name: "Siam Hossain",

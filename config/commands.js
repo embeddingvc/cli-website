@@ -1,4 +1,5 @@
 const whoisEmbedding = "Embedding VC is an early stage venture firm in Silicon Valley to back AI startups, particularly those focused on introducing AI-native applications, business models or organization made possible by AI, as well as DevTools & Infrastructure stacks that facilitate Generative AI development. All our investors are current and former builders and operators. We believe that we are at the onset of a new computing super cycle, fundamentally driven by AI innovations. Moreover, our passion lies in empowering founders to achieve success — it just feels good. Try %whois% and one of roger, tom, jianing, jerry, or nelson to learn more about our team.";
+const whoisLabs = "Embedding Labs is a research foundry building the infrastructure for human talent and interaction. AI is rapidly learning to reason, code, and act. In a world of AI abundance, the hardest problem remains understanding people — who they are, what they want to build, and how they work best together. We exist to solve that problem and direct talent toward what matters: incubating new ideas  and fueling the exponential growth of a new generation of AI-native companies.";
 const timeUnit = 1000; // useful for development, set to 10 to run faster, set to 1000 for production
 let killed = false;
 
@@ -46,16 +47,22 @@ const commands = {
 
   whois: function(args) {
     const name = args[0];
+    const secondArg = args[1];
     const people = Object.keys(team);
 
     if (!name) {
       term.stylePrint("%whois%: Learn about the firm, or an investor - usage:\r\n");
-      term.stylePrint("%whois% embedding");
+      term.stylePrint("%whois% embedding vc");
+      term.stylePrint("%whois% embedding labs");
       for (p of people) {
         term.stylePrint(`%whois% ${p}`);
       }
-    } else if (name == "embedding") {
-      const description = whoisEmbedding;
+    } else if (name == "embedding" || name == "vc" || (name == "embedding" && secondArg == "vc")) {
+      const description = (secondArg == "labs" || name == "labs") ? whoisLabs : whoisEmbedding;
+      term.printArt("embedding-square");
+      term.stylePrint(description);
+    } else if (name == "labs" || (name == "embedding" && secondArg == "labs")) {
+      const description = whoisLabs;
       term.printArt("embedding-square");
       term.stylePrint(description);
     } else if (Object.keys(team).includes(name)) {
@@ -66,7 +73,8 @@ const commands = {
       term.stylePrint(person["description"]);
     } else {
       term.stylePrint(`User ${name || ''} not found. Try:\r\n`);
-      term.stylePrint("%whois% embedding");
+      term.stylePrint("%whois% embedding vc");
+      term.stylePrint("%whois% embedding labs");
       for (p of people) {
         term.stylePrint(`%whois% ${p}`);
       }
