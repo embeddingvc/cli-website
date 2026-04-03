@@ -45,6 +45,18 @@ const NARROW_LOGO_TYPE =
                 ▄▌
 `.replaceAll("\n", "\r\n");
 
+const EMBEDDING_LABS = 
+`
+    ╔══════════════════════════════════════╗
+    ║            ·   *   ·                 ║
+    ║          *   ·   *                   ║
+    ║    ⚒  EMBEDDING LABS                 ║
+    ║    ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔                 ║
+    ║    forge teams. ship companies.      ║
+    ║                                      ║
+    ╚══════════════════════════════════════╝
+`.replaceAll("\n", "\r\n");
+
 function preloadASCIIArt() {
   const companies = Object.keys(portfolio);
   for (c of companies) {

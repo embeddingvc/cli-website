@@ -1,6 +1,6 @@
 const whoisEmbedding = "Embedding VC is an early stage venture firm in Silicon Valley to back AI startups, particularly those focused on introducing AI-native applications, business models or organization made possible by AI, as well as DevTools & Infrastructure stacks that facilitate Generative AI development. All our investors are current and former builders and operators. We believe that we are at the onset of a new computing super cycle, fundamentally driven by AI innovations. Moreover, our passion lies in empowering founders to achieve success — it just feels good. Try %whois% and one of roger, tom, jianing, jerry, or nelson to learn more about our team.";
 const whoisLabs = "Embedding Labs is a research foundry building the infrastructure for human talent and interaction. AI is rapidly learning to reason, code, and act. In a world of AI abundance, the hardest problem remains understanding people — who they are, what they want to build, and how they work best together. We exist to solve that problem and direct talent toward what matters: incubating new ideas  and fueling the exponential growth of a new generation of AI-native companies.";
-const whatisFIR = "Each year, we partner with a select group of exceptional founders to build new companies aligned with our vision. These teams work closely with the Embedding team and receive $100K–$250K in angel funding, cloud credits, and hands-on support across product, engineering, and go-to-market. If you are interested in working with us, we’d love to hear from you at hello@embedding.studio.";
+const whatisFIR = "Each year, we partner with a select group of exceptional founders to build new companies aligned with our vision. These teams work closely with the Embedding team and receive $100K–$250K in angel funding, cloud credits, and hands-on support across product, engineering, and go-to-market. If you are interested in working with us, we'd love to hear from you at " + colorText("hello@embedding.studio", "hyperlink") + ".";
 const timeUnit = 1000; // useful for development, set to 10 to run faster, set to 1000 for production
 let killed = false;
 
@@ -63,9 +63,11 @@ const commands = {
       term.printArt("embedding-square");
       term.stylePrint(description);
     } else if (name == "labs" || (name == "embedding" && secondArg == "labs")) {
-      const description = whoisLabs;
-      term.printArt("embedding-square");
-      term.stylePrint(description);
+      const logoColor = "\x1b[38;2;181;168;213m"; // RGB color for #B5A8D5
+      const resetColor = "\x1b[0m";             // Reset to default color
+      term.writeln(logoColor + EMBEDDING_LABS + resetColor);
+      term.stylePrint(whoisLabs);
+      term.stylePrint("");
       term.stylePrint(whatisFIR);
     } else if (Object.keys(team).includes(name)) {
       const person = team[name];
