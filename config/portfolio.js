@@ -195,4 +195,14 @@ const portfolio = {
     memo: null,
     news: "https://groq.com/news_press/groq-raises-640m-to-meet-soaring-demand-for-fast-ai-inference/",
   },
+
+  scaleflux: {
+    name: "ScaleFlux",
+    url: "https://scaleflux.com/",
+    description: "CMemory solutions for scaling data center infra to handle AI, HPC, and data-driven applications.",
+    stage: "Series C",
+    status: "Active",
+    memo: null,
+    news: "https://www.globaltechinsider.com/award-winner-2026/scaleflux/",
+  },
 };
