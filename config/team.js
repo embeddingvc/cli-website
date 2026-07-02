@@ -48,6 +48,13 @@ const team = {
       "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
   },
+  arjun: {
+    name: "Arjun Lev Pillai Hausner",
+    title: "Venture Fellow",
+    description:
+      "Arjun Hausner is a PhD student at Stanford working on climate, finance, energe economics, and food systems.",
+    linkedin: "https://www.linkedin.com/in/arjun-lev-pillai-hausner/",
+  },
   raihan: {
     name: "Raihan Ahmed",
     title: "Head of Scout",
