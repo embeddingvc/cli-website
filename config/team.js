@@ -8,7 +8,7 @@ const team = {
   },
   congxing: {
     name: "Congxing Cai",
-    title: "Partner, CTO",
+    title: "Forward Deployed Partner & CTO",
     description:
       "Congxing Cai is a CTO Partner at Embedding VC. Congxing is a seasoned entrepreneur who launched multiple viral AI + Social apps backed by Index Ventures. Prior to that, he served as Head of Discover and Story Engineering at Snapchat, a Principal Engineer at Houzz, and a Tech Lead at Google.",
     linkedin: "https://www.linkedin.com/in/congxing-cai-8775732b/",
