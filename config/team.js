@@ -20,26 +20,12 @@ const team = {
       "Jianing Wu is an investor at Embedding VC. Previously, she interned at Micron Ventures, Monad Ventures and Alibaba's Strategic Investment Group. She holds a Master of Science in Management Science and Engineering from Stanford and a Bachelor of Science in Financial Mathematics from the USC.",
     linkedin: "https://www.linkedin.com/in/wu-jianing/",
   },
-  tom: {
-    name: "Thomas Matthias",
-    title: "Investor",
+  alice: {
+    name: "Alice Cui",
+    title: "Chief of Staff",
     description:
-      "Tom Matthias is an investor at Embedding VC. His background includes technical product management roles at Meta Reality Labs, Amazon Alexa, Saildrone, and Dolby Labs, with a focus on AR/VR systems, robotics, voice assistants, and audio software. Tom holds an MBA from Santa Clara University, a Master's in Music Business from Berklee, and a B.S. in Audio Software Engineering from Cogswell Polytechnical College.",
-    linkedin: "https://www.linkedin.com/in/thomasmatthias/",
-  },
-  henry: {
-    name: "Henry Zhang",
-    title: "Talent Associate",
-    description:
-      "Henry Zhang is a Talent Associate at Embedding VC. He recently graduated from the University of Chicago, where he majored in Public Policy.",
-    linkedin: "https://www.linkedin.com/in/zhengyan-zhang-598088284/",
-  },
-  jerry: {
-    name: "Jerry Li",
-    title: "Venture Partner",
-    description:
-      "Jerry Li is the Co-founder and CEO of Gradual, a next-generation community platform designed to unify events, content, and conversations for purpose-led communities. Besides Gradual, he founded the Engineering Leadership Community (ELC), a global network of over 10,000 engineering leaders, where he continues to foster leadership development and knowledge sharing. Jerry’s earlier career includes engineering leadership roles at Amazon and Groupon, where he led teams in building scalable payment infrastructures. He holds a Master’s degree in Computer Science from UIUC. ",
-    linkedin: "https://www.linkedin.com/in/jerry-li-1bb1177/",
+      "Alice Cui is the Chief of Staff at Embedding VC. As a global affairs and astro dubble major at Yale, she has experience across finance, GTM, consulting, and research.",
+    linkedin: "https://www.linkedin.com/in/ziqi-alice-cui/",
   },
   nelson: {
     name: "Nelson Bostrom",
@@ -47,6 +33,13 @@ const team = {
     description:
       "Nelson Bostrom is the Head of Partnerships at Upwind, a cybersecurity startup specializing in cloud-native application protection backed by Greylock. Prior to joining Upwind, he spent over five years at AWS as Group Manager of their Startup GTM Partnership program. He is an active angel investor and syndicate lead with top decile returns. Nelson holds a Bachelor in Political Science and a JD from Santa Clara University.",
     linkedin: "https://www.linkedin.com/in/nelsonbostrom/",
+  },
+  jerry: {
+    name: "Jerry Li",
+    title: "Venture Partner",
+    description:
+      "Jerry Li is the Co-founder and CEO of Gradual, a next-generation community platform designed to unify events, content, and conversations for purpose-led communities. Besides Gradual, he founded the Engineering Leadership Community (ELC), a global network of over 10,000 engineering leaders, where he continues to foster leadership development and knowledge sharing. Jerry’s earlier career includes engineering leadership roles at Amazon and Groupon, where he led teams in building scalable payment infrastructures. He holds a Master’s degree in Computer Science from UIUC. ",
+    linkedin: "https://www.linkedin.com/in/jerry-li-1bb1177/",
   },
   arjun: {
     name: "Arjun Lev Pillai Hausner",
