@@ -155,6 +155,126 @@ const portfolio = {
     news: null,
   },
 
+  shiplight: {
+    name: "Shiplight",
+    url: "https://www.shiplight.ai/",
+    description: "Agent-native end-to-end testing platform where coding agents write and maintain self-healing browser tests in plain-English YAML.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  deepvista: {
+    name: "DeepVista",
+    url: "https://deepvista.ai/",
+    description: "AI-assisted outbound sales platform that researches target accounts, drafts personalized outreach, and sharpens targeting with every reply.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  catchouse: {
+    name: "Catchouse",
+    url: "https://catchouse.com/",
+    description: "AI-powered real estate search that helps people discover neighborhoods, local insights, and posts from real estate agents across the U.S.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  e3group: {
+    name: "E3 Group",
+    url: "https://www.e3group.ai/",
+    description: "Freight security platform that verifies truck drivers, flags fraud risks, and secures handoffs so brokers and shippers can trust who moves their freight.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  urun: {
+    name: "uRun",
+    url: "https://urun.sh/",
+    description: "Developer platform for real-time AI: speech, language, and video model APIs that run together for voice agents, live video, and avatars.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  xlue: {
+    name: "Xlue",
+    url: "https://www.xlue.ai/",
+    description: "Building the Health World Model for general clinical intelligence: AI that understands a patient's health state, anticipates how it will evolve, and reasons about how clinical actions reshape it.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  marble: {
+    name: "Marble",
+    url: "https://withmarble.com/",
+    description: "Interactive learning world for curious kids ages 6-12 that bundles 100 kids' apps, from drawing and homework help to languages and storytelling, into one game.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  corridor: {
+    name: "Corridor",
+    url: "https://corridoradvisors.com/",
+    description: "AI-native employee benefits brokerage that finds health plans for businesses with 1 to 500 employees, manages enrollment, and supports employees year-round.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  sonilo: {
+    name: "Sonilo",
+    url: "https://sonilo.com/",
+    description: "AI platform that generates licensed music and sound effects matched to a video's length and content.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  bluequbit: {
+    name: "BlueQubit",
+    url: "https://www.bluequbit.io/",
+    description: "Frontier quantum computing lab building quantum algorithms, classical simulators, and a platform, SDK, and API for running circuits on quantum hardware.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  roboticscompany: {
+    name: "The Robotics Company",
+    url: "https://www.theroboticscompany.com/",
+    description: "Building robots to automate the physical side of human life, the way AI agents are automating the digital side.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
+  superbloom: {
+    name: "Superbloom Labs",
+    url: "https://superbloom.gg/",
+    description: "AI research and product company building self-improving agents and tools that bring intelligent, responsive characters and ecosystems to virtual worlds.",
+    stage: "Seed",
+    status: "Active",
+    memo: null,
+    news: null,
+  },
+
 /* ─────────────────────  LATE-STAGE PORTFOLIO  ───────────────────── */
   anthropic: {
     name: "Anthropic",
@@ -204,5 +324,15 @@ const portfolio = {
     status: "Active",
     memo: null,
     news: "https://www.globaltechinsider.com/award-winner-2026/scaleflux/",
+  },
+
+  ayarlabs: {
+    name: "Ayar Labs",
+    url: "https://ayarlabs.com/",
+    description: "Co-packaged optics that link GPUs across racks into a single cluster, removing the interconnect bottleneck for hyperscale AI infrastructure.",
+    stage: "Series E",
+    status: "Active",
+    memo: null,
+    news: "https://ayarlabs.com/news/ayar-labs-expands-2026-funding-to-650-million/",
   },
 };
