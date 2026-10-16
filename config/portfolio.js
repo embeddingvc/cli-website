@@ -22,6 +22,17 @@ const portfolio = {
     news: "https://www.reforge.com/blog/the-feedback-fragmentation-tax",
   },
 
+  everloop: {
+    name: "Everloop",
+    url: "https://www.geteverloop.com/",
+    description:
+      "AI-native customer acquisition platform: agents that run ads across Google, Meta, and LinkedIn and build an optimized landing page for every ad.",
+    stage: "Seed",
+    status: "Exited, Acquired by Block",
+    memo: null,
+    news: "https://www.linkedin.com/feed/update/urn:li:activity:7516904757400219648/",
+  },
+
   magicschool: {
     name: "Magic School",
     url: "https://www.magicschool.ai/",
